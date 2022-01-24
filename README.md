@@ -7,6 +7,7 @@
   O primeiro projeto trata-se de um programa capaz de consultar a cotação de algumas moedas em tempo real (USD-BRL, EUR-BRL, BTC-BRL).
   Como estou iniciando, utilizei apenas algumas bibliotecas básicas, tais quais a [json](https://docs.python.org/3/library/json.html) e a [requests](https://docs.python-requests.org/en/latest/), e uma API que me permitisse fazer as requisições sobre os valores das moedas e algumas outras informações, como a variação diária.
 
-1. API utilizada: ![image](https://user-images.githubusercontent.com/77127403/150859892-8a98f2ea-cad8-4678-97c3-5e87432e8af2.png)
+## API utilizada: 
+![image](https://user-images.githubusercontent.com/77127403/150859892-8a98f2ea-cad8-4678-97c3-5e87432e8af2.png)
  - [AwesomeAPI](https://docs.awesomeapi.com.br/api-de-moedas)
   - [Página no Github](https://github.com/raniellyferreira/economy-api)
