@@ -3,7 +3,8 @@ import requests
 
 req = None
 
-def requisicao(titulo):     # USD-BRL,EUR-BRL,BTC-BRL
+# Consumindo a API fazendo as requisições para obter as informações das moedas.
+def requisicao(titulo):
     try:
         req = requests.get("https://economia.awesomeapi.com.br/last/" + titulo)
         iRETORNO = json.loads(req.text)
@@ -13,6 +14,9 @@ def requisicao(titulo):     # USD-BRL,EUR-BRL,BTC-BRL
         print('Não foi possível fazer a requisição', e)
         return None
 
+    
+# Os dados, inicialmente, vêm em um dicionário, que está contido em outro.
+# A função abaixo trata de separar os dicionários, e permitir o uso daquele que realmente importa ao programa.
 def descompactar(conteudo, cont):
     descompactado = conteudo[cont]
     return descompactado
