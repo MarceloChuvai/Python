@@ -9,5 +9,5 @@
 
 ### API utilizada: 
 ![image](https://user-images.githubusercontent.com/77127403/150859892-8a98f2ea-cad8-4678-97c3-5e87432e8af2.png)
- - [AwesomeAPI](https://docs.awesomeapi.com.br/api-de-moedas)
+ - [Documentação](https://docs.awesomeapi.com.br/api-de-moedas)
   - [Página no Github](https://github.com/raniellyferreira/economy-api)
